@@ -4,11 +4,7 @@
 @import "./geogebra.scss";
 
 table.over{
-    & *{
-        & tr{
-            & td {
-                min-width: 120px !important;
-            }
-        }
+    & td {
+      min-width: 120px !important;
     }
 }

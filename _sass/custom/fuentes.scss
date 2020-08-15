@@ -1,9 +1,9 @@
 .qs {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .rw {
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 .um {
@@ -11,18 +11,18 @@
 }
 
 .main-content h1:first-of-type {
-  text-align: left;
-  font-weight: 300;
   margin-bottom: 0.5cm;
+  font-weight: 300;
+  text-align: left;
   span {
     font-weight: inherit;
   }
 }
 h1 {
-  text-align: left;
-  font-weight: 300;
-  font-family: "Quicksand", sans-serif;
   margin-bottom: 0.5cm;
+  font-weight: 300;
+  text-align: left;
+  font-family: Quicksand, sans-serif;
   span {
     font-weight: inherit;
   }
@@ -33,23 +33,23 @@ h4,
 h5,
 h6,
 .text-delta {
-  text-align: left;
-  color: black;
   font-weight: 600;
+  color: #000000;
+  text-align: left;
 }
 .main-content {
-  color: $grey-dk-100;
   font-weight: 400;
+  color: $grey-dk-100;
   text-align: justify;
 }
 
 [class*="deg-"] {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   font-weight: 600;
 }
 
 .search-result-highlight {
-  font-family: "Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .nav-list .nav-list-item .nav-list-link.active {

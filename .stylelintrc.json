@@ -5,11 +5,6 @@
     "assets/css/just-the-docs-dark.scss",
     "_sass/vendor/**/*.scss"
   ],
-  /*"extends": ["stylelint-config-primer", "stylelint-config-prettier"],
-  "plugins": ["stylelint-prettier"],
-  "rules": {
-    "prettier/prettier": true
-  }*/
   "extends": "stylelint-config-standard",
     "rules": {
         "indentation": "tab",

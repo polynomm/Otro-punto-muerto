@@ -54,21 +54,25 @@
 
   .site-title:hover,
   .site-button:hover,
-  .nav-list .nav-list-item .nav-list-link.active,
-  .nav-list-item > .nav-list .nav-list-link:hover,
-  .nav-list-link:hover,
-  .nav-list-link.active {
+  .nav-list .nav-list-item .nav-list-link:hover,
+  .nav-list .nav-list-item .nav-list-link.active {
     @include alter-fondo(
       map-get($colores-deg-sitio, alter-sitio-texto-color),
       map-get($colores-deg-sitio, alter-sitio)
     );
-    .deg-sitio-texto {
+  }
+
+  .nav-list-link:hover,
+  .nav-list-link.active {
+    &span.deg-sitio-texto {
       -webkit-text-fill-color: map-get($colores-deg-sitio, alter-sitio);
     }
   }
 
-  .site-button:hover svg {
-    color: #fff;
+  .site-button:hover{
+    &svg{
+      color: #fff;
+    }
   }
   .site-title.lh-tight:hover::before,
   .site-title.lh-tight:active::before {

@@ -20,9 +20,9 @@ $colores-deg-sitio: (
   /*
 Ajuste para deg-sitios según tema
 */
-  a {
-    background-size: 100% 100%;
+ a{
     color: #27262b;
+    background-size: 100% 100%;
   }
   h1:hover,
   h2:hover,
@@ -35,8 +35,8 @@ Ajuste para deg-sitios según tema
       -webkit-background-clip: content-box;
       //Se coloca mix blend mode en svg para que cambie a deg-sitio.
       svg {
-        color: black;
-        background: white;
+        color: #000;
+        background: #fff;
         mix-blend-mode: screen;
       }
     }
@@ -86,41 +86,38 @@ Ajuste para deg-sitios según tema
   //links barra de navegación
   .site-title:hover,
   .site-button:hover,
-  .nav-list .nav-list-item .nav-list-link.active,
-  .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link:hover,
   .nav-list .nav-list-item .nav-list-link.active {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio-texto-color));
-    span.deg-sitio-texto {
+  }
+  .nav-list-link:hover,
+  .nav-list-link.active {
+    &span.deg-sitio-texto {
       -webkit-text-fill-color: #fff;
     }
   }
 
   //Estos son los links junto a la barra de búsqueda. Necesita cambiar el texto a blanco.
   .site-button:hover {
-    svg {
+    &svg {
       color: #fff;
     }
   }
 
   //Esto es el botón inicial con pseudoclase before. Sirve para agregar el texto de POLYNOMM
-  .site-title.lh-tight:hover:before,
-  .site-title.lh-tight:active:before {
-    content: "POLYNOMM";
+  .site-title.lh-tight:hover::before,
+  .site-title.lh-tight:active::before {
     position: absolute;
+    content: "POLYNOMM";
   }
-  .site-title.lh-tight:hover,
-  .site-title.lh-tight:active {
-    span {
-      mjx-container {
+  .site-title.lh-tight:hover mjx-container,
+  .site-title.lh-tight:active mjx-container {
         visibility: hidden;
-      }
-    }
   }
 
   //Barra de navegación
-  .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+  .nav-list-item > .nav-list .nav-list-link {
     color: map-get($colores-deg-sitio, deg-sitio-texto-color);
   }
 

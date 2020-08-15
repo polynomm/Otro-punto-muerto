@@ -1,8 +1,8 @@
 $colores-deg-sitio: (
   deg-sitio: linear-gradient(to top, #21d4fd 0%, #b721ff 100%),
   alter-sitio: #6b7afe,
-  deg-sitio-texto-color: white,
-  alter-sitio-texto-color: white,
+  deg-sitio-texto-color: #fff,
+  alter-sitio-texto-color: #fff,
 ) !default;
 @media only screen and (min-width: map-get($media-queries,md)) {
   .deg-sitio {
@@ -94,14 +94,14 @@ Ajuste para deg-sitios según tema
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio-texto-color));
     span.deg-sitio-texto {
-      -webkit-text-fill-color: white;
+      -webkit-text-fill-color: #fff;
     }
   }
 
   //Estos son los links junto a la barra de búsqueda. Necesita cambiar el texto a blanco.
   .site-button:hover {
     svg {
-      color: white;
+      color: #fff;
     }
   }
 
@@ -145,7 +145,7 @@ Ajuste para deg-sitios según tema
   .deg-sitio-texto {
     display: inline-flex;
     &::selection {
-      -webkit-text-fill-color: white;
+      -webkit-text-fill-color: #fff;
     }
   }
   /* Let's get this party started */
@@ -172,6 +172,6 @@ Ajuste para deg-sitios según tema
   .header-open-landscape {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio));
-    background-color: white !important;
+    background-color: #fff !important;
   }
 }

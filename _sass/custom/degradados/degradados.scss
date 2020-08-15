@@ -55,7 +55,7 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 *::selection {
   color: #fff;
   background: map-get($colores-deg-sitio, alter-sitio) !important;
-  -webkit-text-fill-color: white !important;
+  -webkit-text-fill-color: #fff !important;
 }
 
 //Aquellos códigos que no son degradados para ambos

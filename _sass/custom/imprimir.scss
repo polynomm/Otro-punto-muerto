@@ -21,13 +21,13 @@
     min-height: unset;
     height: 40px;
     border-bottom: none;
-    background-color: white;
+    background-color: #fff;
     pointer-events: none;
   }
   .site-title.lh-tight:hover:before,
   .site-title.lh-tight:active:before {
     content: unset;
-    background-color: white;
+    background-color: #fff;
     color: unset;
     padding-top: unset;
     padding-bottom: unset;

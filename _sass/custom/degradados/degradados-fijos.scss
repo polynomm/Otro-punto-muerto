@@ -24,51 +24,51 @@ $colores-deg-especial: (
       #8a39ef 100%
     ),
   alter-especial: #8a39ef,
-  deg-especial-texto-color: white,
-  alter-especial-texto-color: white,
+  deg-especial-texto-color: #fff,
+  alter-especial-texto-color: #fff,
 );
 $colores-deg-algebra: (
   deg-algebra:
     linear-gradient(to top, #aaaaaa 0%, #aaaaaa 30%, #888888 70%, #888888 100%),
   alter-algebra: #888888,
-  deg-algebra-texto-color: white,
-  alter-algebra-texto-color: white,
+  deg-algebra-texto-color: #fff,
+  alter-algebra-texto-color: #fff,
 );
 $colores-deg-casillas: (
   deg-casillas:
     linear-gradient(to top, #b9c9f2 0%, #b9c9f2 30%, #7aa0ff 70%, #7aa0ff 100%),
   alter-casillas: #7aa0ff,
-  deg-casillas-texto-color: white,
-  alter-casillas-texto-color: white,
+  deg-casillas-texto-color: #fff,
+  alter-casillas-texto-color: #fff,
 );
 $colores-deg-combinatoria: (
   deg-combinatoria:
     linear-gradient(to top, #ff5c5c 0%, #ff5c5c 30%, #ff1500 70%, #ff1500 100%),
   alter-combinatoria: rgba(255, 0, 0, 1),
-  deg-combinatoria-texto-color: white,
-  alter-combinatoria-texto-color: white,
+  deg-combinatoria-texto-color: #fff,
+  alter-combinatoria-texto-color: #fff,
 );
 $colores-deg-desigualdades: (
   deg-desigualdades:
     linear-gradient(to top, rgb(255, 143, 178) 0%, rgba(255, 0, 159, 1) 80%),
   alter-desigualdades: rgba(255, 0, 159, 1),
-  deg-desigualdades-texto-color: white,
-  alter-desigualdades-texto-color: white,
+  deg-desigualdades-texto-color: #fff,
+  alter-desigualdades-texto-color: #fff,
 );
 $colores-deg-geometria: (
   deg-geometria:
     linear-gradient(to top, #00e00f 0%, #00e00f 30%, #02b328 70%, #02b328 100%),
   alter-geometria: #02b328,
-  deg-geometria-texto-color: white,
-  alter-geometria-texto-color: white,
+  deg-geometria-texto-color: #fff,
+  alter-geometria-texto-color: #fff,
 );
 
 $colores-deg-numeros: (
   deg-numeros:
     linear-gradient(to top, #6666ff 0%, #6666ff 30%, #0000ff 70%, #0000ff 100%),
   alter-numeros: #0000ff,
-  deg-numeros-texto-color: white,
-  alter-numeros-texto-color: white,
+  deg-numeros-texto-color: #fff,
+  alter-numeros-texto-color: #fff,
 );
 .deg-algebra-texto,
 .deg-casillas-texto,

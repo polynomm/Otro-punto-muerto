@@ -34,14 +34,20 @@ Ajuste para deg-sitios según tema
       //Los símbolos junto a los encabezados (svg) son el contenido
       -webkit-background-clip: content-box;
       //Se coloca mix blend mode en svg para que cambie a deg-sitio.
-      svg {
-        color: black;
-        background: white;
-        mix-blend-mode: screen;
-      }
     }
   }
-
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  h5:hover,
+  h6:hover {
+    svg {
+      color: black;
+      background: white;
+      mix-blend-mode: screen;
+    }
+  }
   //Se utiliza el display inline flex para que no cambie nada excepto el deg-sitio, y además muestre este correctamente
   //Esto se hace en general con todos los elementos en una línea
   .search-result-highlight {

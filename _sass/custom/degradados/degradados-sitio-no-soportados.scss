@@ -16,13 +16,19 @@
       //Los símbolos junto a los encabezados (svg) son el contenido
       -webkit-background-clip: none;
       -webkit-background-clip: none;
-      svg {
-        @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
-        mix-blend-mode: unset;
-      }
     }
   }
-
+  h1:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  h5:hover,
+  h6:hover {
+    svg {
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+      mix-blend-mode: unset;
+    }
+  }
   .search-result-highlight {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
     display: inline-flex;

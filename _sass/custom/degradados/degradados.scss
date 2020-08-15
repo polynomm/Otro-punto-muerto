@@ -20,12 +20,12 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 //deg-sitio a fondo o texto
 @mixin deg-texto {
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  background-clip: text;
 }
 
 @mixin deg-fondo($color) {
   -webkit-text-fill-color: $color;
-  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
 }
 
 //Coloreado alternativo sin deg-sitio
@@ -34,7 +34,7 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
   background-color: unset;
   background-image: unset;
   background-attachment: unset;
-  -webkit-background-clip: unset;
+  background-clip: unset;
   -webkit-text-fill-color: unset;
 }
 

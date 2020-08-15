@@ -29,8 +29,8 @@ $colores-deg-especial: (
 );
 $colores-deg-algebra: (
   deg-algebra:
-    linear-gradient(to top, #aaaaaa 0%, #aaaaaa 30%, #888888 70%, #888888 100%),
-  alter-algebra: #888888,
+    linear-gradient(to top, #aaa 0%, #aaa 30%, #888 70%, #888 100%),
+  alter-algebra: #888,
   deg-algebra-texto-color: #fff,
   alter-algebra-texto-color: #fff,
 );
@@ -65,8 +65,8 @@ $colores-deg-geometria: (
 
 $colores-deg-numeros: (
   deg-numeros:
-    linear-gradient(to top, #6666ff 0%, #6666ff 30%, #0000ff 70%, #0000ff 100%),
-  alter-numeros: #0000ff,
+    linear-gradient(to top, #66f 0%, #66f 30%, #00f 70%, #00f 100%),
+  alter-numeros: #00f,
   deg-numeros-texto-color: #fff,
   alter-numeros-texto-color: #fff,
 );

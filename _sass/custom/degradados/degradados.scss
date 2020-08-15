@@ -39,8 +39,8 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 }
 
 @mixin alter-fondo($colorTexto, $colorFondo) {
-  background-color: $colorFondo;
   color: $colorTexto;
+  background-color: $colorFondo;
   background-image: unset;
   background-attachment: unset;
   -webkit-background-clip: unset;
@@ -67,35 +67,35 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 //Geogebra
 
 //Botón flotante mover (circular)
-.GeoGebraFrame .toolbar .main .moveFloatingBtn,
-.GeoGebraFrame .toolbar .main .showMoveBtn,
-.GeoGebraFrame .toolbar .main .hideMoveBtn {
+.GeoGebraFrame .moveFloatingBtn,
+.GeoGebraFrame .showMoveBtn,
+.GeoGebraFrame .hideMoveBtn {
   background-color: map-get($colores-deg-sitio, alter-sitio);
 }
 //Botón flotante mover (circular) con evento de mouse
-.GeoGebraFrame .toolbar .main .moveFloatingBtn:hover,
-.GeoGebraFrame .toolbar .main .showMoveBtn:hover,
-.GeoGebraFrame .toolbar .main .hideMoveBtn:hover,
-.GeoGebraFrame .toolbar .main .moveFloatingBtn:focus,
-.GeoGebraFrame .toolbar .main .showMoveBtn:focus,
-.GeoGebraFrame .toolbar .main .hideMoveBtn:focus {
+.GeoGebraFrame .moveFloatingBtn:hover,
+.GeoGebraFrame .showMoveBtn:hover,
+.GeoGebraFrame .hideMoveBtn:hover,
+.GeoGebraFrame .moveFloatingBtn:focus,
+.GeoGebraFrame .showMoveBtn:focus,
+.GeoGebraFrame .hideMoveBtn:focus {
   background-color: mix(map-get($colores-deg-sitio, alter-sitio), #111, 90%);
 }
 
-.GeoGebraFrame .toolbar .toolsPanel .toolButton[selected="true"] .gwt-Label {
-  color: map-get($colores-deg-sitio, alter-sitio);
+.GeoGebraFrame .toolButton[selected="true"] .gwt-Label {
   font-weight: 600;
+  color: map-get($colores-deg-sitio, alter-sitio);
 }
 
 //Etiqueta de herramienta seleccionada
 .GeoGebraFrame .toolButton[selected="true"] .gwt-Label,
 .GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent,
 .GeoGebraFrame .NewRadioButtonTreeItemParent,
-.GeoGebraFrame .KeyboardSwitcher .switcherContents .gwt-Button.selected {
+.GeoGebraFrame .gwt-Button.selected {
   color: map-get($colores-deg-sitio, alter-sitio) !important;
 }
 .GeoGebraFrame .KeyboardSwitcher *:hover {
-  color: mix(map-get($colores-deg-sitio, alter-sitio), black, 90%) !important;
+  color: mix(map-get($colores-deg-sitio, alter-sitio), #000, 90%) !important;
 }
 //Borde escritura álgebra
 .GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent {

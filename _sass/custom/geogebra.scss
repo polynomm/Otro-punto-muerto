@@ -2,13 +2,13 @@
 
 .main.tools,
 .main.algebra {
-  margin-left: 0px !important;
+  margin-left: none !important;
   background-color: #fff !important;
 }
 .GeoGebraFrame {
   ::-webkit-scrollbar-thumb {
-    background-image: unset !important;
     background-color: #ccc;
+    background-image: unset !important;
   }
 }
 
@@ -18,13 +18,13 @@ td {
 }
 
 .gwt-MenuItem {
-  &:before {
+  &::before {
     display: none;
   }
 }
 ul.gwt-MenuBar {
   padding-left: 0px !important;
-  li:before {
+  li::before {
     display: none;
   }
 }

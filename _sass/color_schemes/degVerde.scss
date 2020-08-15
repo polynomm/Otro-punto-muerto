@@ -1,13 +1,14 @@
 @use "sass:map";
 $colores-deg-sitio: (
-  deg-sitio: linear-gradient(to top, rgba(21, 21, 212, 1) 0.9%, rgb(0, 197, 223) 70%),
+  deg-sitio:
+  linear-gradient(to top, rgba(21, 21, 212, 1) 0.9%, rgb(0, 197, 223) 70%),
   alter-sitio: #11c0e0,
   deg-sitio-texto-color: #fff,
   alter-sitio-texto-color: #fff,
 );
 $link-color: $grey-dk-300;
 $body-font-family: "Raleway", sans-serif;
-$mono-font-family: Ubuntu Mono, monospace;
+$mono-font-family: "Ubuntu Mono" monospace;
 
 /*
 linear-gradient(90deg, rgba(0,198,255,1) 20%, rgba(255,231,0,1) 50%, rgba(255,149,0,1) 80%)

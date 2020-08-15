@@ -1,69 +1,69 @@
 @media screen {
-    .mo-mostrar {
-        display: none;
-    }
+  .mo-mostrar {
+    display: none;
+  }
 }
 
 @media print {
-    .no-imprimir {
-        display: none;
+  .no-imprimir {
+    display: none;
+  }
+  @page:first {
+    margin-top: 3cm;
+  }
+  @page {
+    margin: 2.5cm;
+  }
+  .main-content-wrap {
+    padding-top: -8px !important;
+  }
+  .site-header {
+    min-height: unset;
+    height: 40px;
+    border-bottom: none;
+    background-color: white;
+    pointer-events: none;
+  }
+  .site-title.lh-tight:hover:before,
+  .site-title.lh-tight:active:before {
+    content: unset;
+    background-color: white;
+    color: unset;
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+  .main-content h1:first-of-type {
+    font-weight: 300 !important;
+    margin-bottom: 0.5cm;
+    span {
+      font-weight: inherit !important;
     }
-    @page:first {
-        margin-top: 3cm;
+  }
+  h1 {
+    font-weight: 300;
+    font-family: "Quicksand", sans-serif;
+    margin-bottom: 0.5cm;
+    span {
+      font-weight: inherit;
     }
-    @page {
-        margin: 2.5cm;
-    }
-    .main-content-wrap {
-        padding-top: -8px !important;
-    }
-    .site-header {
-        min-height: unset;
-        height: 40px;
-        border-bottom: none;
-        background-color: white;
-        pointer-events: none;
-    }
-    .site-title.lh-tight:hover:before,
-    .site-title.lh-tight:active:before {
-        content: unset;
-        background-color: white;
-        color: unset;
-        padding-top: unset;
-        padding-bottom: unset;
-    }
-    .main-content h1:first-of-type {
-        font-weight: 300 !important;
-        margin-bottom: 0.5cm;
-        span {
-            font-weight: inherit !important;
-        }
-    }
-    h1 {
-        font-weight: 300;
-        font-family: "Quicksand", sans-serif;
-        margin-bottom: 0.5cm;
-        span {
-            font-weight: inherit;
-        }
-    }
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        color: black !important;
-        font-family: "Quicksand", sans-serif !important;
-        font-weight: 600 !important;
-    }
-    body {
-        color: $grey-dk-250 !important;
-        font-weight: 400 !important;
-        -webkit-print-color-adjust: exact !important;
-        color-adjust: exact !important;
-    }
+  }
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black !important;
+    font-family: "Quicksand", sans-serif !important;
+    font-weight: 600 !important;
+  }
+  body {
+    color: $grey-dk-250 !important;
+    font-weight: 400 !important;
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
 
-    [class*="deg-"] {
-        font-weight: 600 !important;
-    }
+  [class*="deg-"] {
+    font-weight: 600 !important;
+  }
 }

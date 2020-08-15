@@ -5,9 +5,30 @@
     "assets/css/just-the-docs-dark.scss",
     "_sass/vendor/**/*.scss"
   ],
-  "extends": ["stylelint-config-primer", "stylelint-config-prettier"],
+  /*"extends": ["stylelint-config-primer", "stylelint-config-prettier"],
   "plugins": ["stylelint-prettier"],
   "rules": {
     "prettier/prettier": true
-  }
+  }*/
+  "extends": "stylelint-config-standard",
+    "rules": {
+        "indentation": "tab",
+        "string-quotes": "double",
+        "no-duplicate-selectors": true,
+        "color-hex-case": "lower",
+        "color-hex-length": "short",
+        "color-named": "never",
+        "selector-combinator-space-after": "always",
+        "selector-attribute-quotes": "always",
+        "selector-attribute-operator-space-before": "always",
+        "declaration-block-trailing-semicolon": "always",
+        "declaration-colon-space-after": "always",
+        "number-leading-zero": "always",
+        "function-url-quotes": "always",
+        "comment-whitespace-inside": "never",
+        "comment-empty-line-before": "always",
+        "rule-empty-line-before": "always",
+        "selector-pseudo-element-colon-notation": "double",
+        "selector-pseudo-class-parentheses-space-inside": "always"
+    }
 }

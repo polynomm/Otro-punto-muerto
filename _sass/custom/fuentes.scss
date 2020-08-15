@@ -1,0 +1,69 @@
+  .qs{
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .rw{
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .um{
+    font-family: 'Ubuntu Mono', monospace;
+  }
+
+  .main-content h1:first-of-type{
+    text-align: left;
+    font-weight:300;
+    margin-bottom: 0.5cm;
+    span{
+      font-weight: inherit;
+    }
+}
+h1{
+  text-align: left;
+  font-weight:300;
+  font-family: "Quicksand", sans-serif ;
+  margin-bottom: 0.5cm;
+  span{
+    font-weight: inherit;
+  }
+}
+h2,h3,h4,h5,h6, .text-delta{
+  text-align: left;
+    color: black ;
+    font-weight:600;
+}
+.main-content{
+    color: $grey-dk-100 ;
+    font-weight: 400 ;
+    text-align: justify;
+}
+
+[class*=deg-]{
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+  
+  .search-result-highlight{
+    font-family: 'Quicksand',sans-serif;
+  }
+  
+  .nav-list .nav-list-item .nav-list-link.active{
+    font-weight: 700;
+  }
+
+  .nav-list .nav-list-item .nav-list-link{
+    font-weight: 600;
+  }
+
+  .main-content a{
+      font-weight: 500;
+  }
+
+  .site-button{
+    font-weight: 700;
+  }
+
+  .gwt-label ,.GeoGebraFrame,.GeoGebraFrame *, .GeoGebraFrame .GeoGebraPopup, .GeoGebraFrame .DialogBox, .GeoGebraFrame .gwt-PopupPanel, .GeoGebraFrame .gwt-SuggestBoxPopup, .GeoGebraFrame .ToolTip{
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700 !important;
+  }

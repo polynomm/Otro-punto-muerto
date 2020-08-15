@@ -1,0 +1,134 @@
+/*
+ Tema sin deg-sitios impresión y móvil
+*/ 
+
+@media not screen and (min-width: map-get($media-queries,md)){
+    a{
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    }
+    h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+      a{
+          //Los símbolos junto a los encabezados (svg) son el contenido
+          -webkit-background-clip: none;
+          background-clip: none;
+          svg{
+              @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+              mix-blend-mode: unset;
+          }
+      }
+    }
+    
+    .search-result-highlight{
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+      display: inline-flex;
+    }
+    
+    a:hover{
+      @include alter-fondo(map-get($colores-deg-sitio, alter-sitio-texto-color), map-get($colores-deg-sitio, alter-sitio));
+    }
+    
+    a.search-result{
+      color: bg-grey-dk-000;
+      background-image: unset;
+    }
+    
+    a:not(.btn){
+      //Se hacer que el texto tenga la $background-image de fondo.
+  
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+      $link-color:black;
+      //cuando el mouse se posiciona.
+    }
+    
+    a:not([class]){
+      //Con esto se aplica el deg-sitio correctamente a los links sin clase.
+      display: inline-flex;
+    }
+    
+    .site-title:hover, .site-button:hover , 
+    .nav-list .nav-list-item .nav-list-link.active, 
+    .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link:hover,
+     .nav-list .nav-list-item .nav-list-link:hover,
+      .nav-list .nav-list-item .nav-list-link.active{
+      @include alter-fondo(map-get($colores-deg-sitio, alter-sitio-texto-color), map-get($colores-deg-sitio, alter-sitio));
+      span.deg-sitio-texto{
+        -webkit-text-fill-color: map-get($colores-deg-sitio, alter-sitio);
+      }
+    }
+    
+    .site-button:hover {
+      svg{
+        color:white;
+      }
+    }
+    .site-title.lh-tight:hover:before, .site-title.lh-tight:active:before {
+      content:"POLYNOMM";
+      position: absolute;
+    }
+  
+    .site-title.lh-tight:hover, .site-title.lh-tight:active{
+      span{
+        mjx-container{
+          visibility: hidden;;
+        }
+      }
+    }
+    
+    .nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    }
+  
+    //Esto es duplicado de deg-sitio.
+    a.nav-list-link{
+      mjx-container{
+        position: static !important;
+      }
+    }
+    
+    //Esto cambia los colores para móvil e impresión de todas las clases que no sean las anteriores (links del sitio etc)
+    .deg-sitio{
+      @include alter-fondo(map-get($colores-deg-sitio, alter-sitio-texto-color), map-get($colores-deg-sitio, alter-sitio))
+    }
+    
+    .deg-sitio-texto{
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    }
+    .deg-sitio-texto>mjx-container{
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    }
+  
+    .deg-sitio.deg-sitio-texto>mjx-container{
+      @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
+    }
+    .deg-sitio-texto{
+      display: inline-flex;
+      &::selection{
+        -webkit-text-fill-color: white;
+      }
+    }
+    /* Let's get this party started */
+  ::-webkit-scrollbar {
+    width: 8px;
+    position:static;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    @include alter-fondo(map-get($colores-deg-sitio, alter-sitio-texto-color), map-get($colores-deg-sitio, alter-sitio));
+    position:fixed;
+    background-color: $grey-dk-000;
+  }
+  
+  //Geogebra
+  //Barra lateral
+  .header-open-landscape{
+    background-color: map-get($colores-deg-sitio, alter-sitio) !important;
+  }
+  
+  }

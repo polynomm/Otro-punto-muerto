@@ -32,7 +32,7 @@ Ajuste para deg-sitios según tema
   h6:hover {
     a {
       //Los símbolos junto a los encabezados (svg) son el contenido
-      background-clip: content-box;
+      -webkit-background-clip: content-box;
       //Se coloca mix blend mode en svg para que cambie a deg-sitio.
       svg {
         color: black;

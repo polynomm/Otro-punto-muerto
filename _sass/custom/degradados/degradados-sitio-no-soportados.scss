@@ -14,8 +14,8 @@
   h6:hover {
     a {
       //Los símbolos junto a los encabezados (svg) son el contenido
-      background-clip: none;
-      background-clip: none;
+      -webkit-background-clip: none;
+      -webkit-background-clip: none;
       svg {
         @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
         mix-blend-mode: unset;

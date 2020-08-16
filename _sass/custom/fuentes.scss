@@ -16,8 +16,8 @@
   margin-bottom: 0.5cm;
   font-weight: 300;
   text-align: left;
-  &span {
-    font-weight: inherit;
+  span {
+    font-weight: 300;
   }
 }
 h1 {
@@ -79,6 +79,6 @@ h6,
 .GeoGebraFrame .gwt-PopupPanel,
 .GeoGebraFrame .gwt-SuggestBoxPopup,
 .GeoGebraFrame .ToolTip {
-  font-family: Quicksand, sans-serif !important;
-  font-weight: 700 !important;
+  font-family: Quicksand, sans-serif;
+  font-weight: 700;
 }

@@ -92,7 +92,7 @@
 
   //Esto es duplicado de deg-sitio.
   .nav-list-link mjx-container {
-    position: static !important;
+    position: static ;
   }
 
   //Esto cambia los colores para móvil e impresión de todas las clases que no sean las anteriores (links del sitio etc)
@@ -143,6 +143,6 @@
   //Geogebra
   //Barra lateral
   .header-open-landscape {
-    background-color: map-get($colores-deg-sitio, alter-sitio) !important;
+    background-color: map-get($colores-deg-sitio, alter-sitio) ;
   }
 }

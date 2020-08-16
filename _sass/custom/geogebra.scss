@@ -2,19 +2,19 @@
 
 .main.tools,
 .main.algebra {
-  margin-left: inherit !important;
-  background-color: #fff !important;
+  margin-left: inherit;
+  background-color: #fff;
 }
 .GeoGebraFrame {
   ::-webkit-scrollbar-thumb {
     background-color: #ccc;
-    background-image: unset !important;
+    background-image: unset;
   }
 }
 
 th,
 td {
-  min-width: unset !important;
+  min-width: unset;
 }
 
 .gwt-MenuItem {
@@ -23,7 +23,7 @@ td {
   }
 }
 ul.gwt-MenuBar {
-  padding-left: 0 !important;
+  padding-left: 0;
   li::before {
     display: none;
   }

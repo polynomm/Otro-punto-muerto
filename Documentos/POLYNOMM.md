@@ -94,8 +94,8 @@ Este sitio, su desarrollador y sus colaboradores se deslindan de cualquier incid
                         "showLogging":true,
                         "useBrowserForJS":false,
                         "autoHeight":true,
-                        "scaleContainerClass":"geo50",
-                        "allowUpscale":false
+                        "scaleContainerClass":"geo-75",
+                        "allowUpscale":true
                         };
                 var applet = new GGBApplet(parameters, '5.0', 'applet_container');
                /*  when used with Math Apps Bundle, uncomment this:*/
@@ -105,7 +105,7 @@ Este sitio, su desarrollador y sus colaboradores se deslindan de cualquier incid
   </script>
 
   <!--Encerrar dentro de un div el applet soluciona el problema de impresión en escritorio (el applet se mueve de su posición) En teléfonos cambia sigue el problem.-->
-<div class="geo50"><div id="applet_container"></div></div>
+<div class="geo-75"><div id="applet_container"></div></div>
 
 
 

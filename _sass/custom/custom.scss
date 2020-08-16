@@ -6,3 +6,7 @@
 .tabla td {
   min-width: 120px !important;
 }
+
+p > mjx-container {
+  overflow-x: scroll;
+}

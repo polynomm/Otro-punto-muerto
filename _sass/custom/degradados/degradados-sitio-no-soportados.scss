@@ -73,9 +73,8 @@
     ) !important;
     color: map-get($colores-deg-sitio, alter-sitio-texto-color) !important;
   }
-
   .site-button:hover {
-    &svg {
+    svg {
       color: #fff;
     }
   }
@@ -142,6 +141,24 @@
       map-get($colores-deg-sitio, alter-sitio-texto-color),
       map-get($colores-deg-sitio, alter-sitio)
     );
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar:horizontal {
+    position: static;
+    height: 8px;
+  }
+
+  /* Track
+  ::-webkit-scrollbar-track {
+  }
+  */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb:horizontal {
+    position: fixed;
+    background-color: $grey-dk-000;
+    border-radius: 10px;
   }
 
   //Geogebra

@@ -142,14 +142,32 @@ Ajuste para deg-sitios según tema
     width: 8px;
   }
 
-  ::-webkit-scrollbar-track {
-  }
+  /* ::-webkit-scrollbar-track {
+  } */
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     position: fixed !important;
     background-color: $grey-dk-000;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+  }
+
+  /* Let's get this party started */
+  ::-webkit-scrollbar:horizontal {
+    position: static !important;
+    height: 8px;
+  }
+
+  /* ::-webkit-scrollbar-track {
+  } */
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb:horizontal {
+    position: fixed !important;
+    background-color: $grey-dk-000;
+    background-image: unset;
     -webkit-border-radius: 10px;
     border-radius: 10px;
   }

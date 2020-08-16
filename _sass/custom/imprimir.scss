@@ -59,6 +59,7 @@
   body {
     font-weight: 400 !important;
     color: $grey-dk-250 !important;
+    -webkit-color-adjust: exact !important;
     color-adjust: exact !important;
   }
 

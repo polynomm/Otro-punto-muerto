@@ -15,7 +15,7 @@
     margin: 2.5cm;
   }
   .main-content-wrap {
-    padding-top: -8px 
+    padding-top: -8px;
   }
   .site-header {
     height: 40px;
@@ -34,9 +34,9 @@
   }
   .main-content h1:first-of-type {
     margin-bottom: 0.5cm;
-    font-weight: 300 
+    font-weight: 300;
     span {
-      font-weight: 300 
+      font-weight: 300;
     }
   }
   hr:first-of-type {
@@ -55,18 +55,18 @@
   h4,
   h5,
   h6 {
-    font-family: Quicksand, sans-serif 
-    font-weight: 600 
-    color: #000 
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    color: #000;
   }
   body {
-    font-weight: 400 
-    color: $grey-dk-250 
-    -webkit-color-adjust: exact 
-    color-adjust: exact 
+    font-weight: 400;
+    color: $grey-dk-250;
+    -webkit-color-adjust: exact;
+    color-adjust: exact;
   }
 
   [class*="deg-"] {
-    font-weight: 600 
+    font-weight: 600;
   }
 }

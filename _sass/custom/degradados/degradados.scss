@@ -54,14 +54,14 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 
 *::selection {
   color: #fff;
-  background: map-get($colores-deg-sitio, alter-sitio) ;
-  -webkit-text-fill-color: #fff ;
+  background: map-get($colores-deg-sitio, alter-sitio);
+  -webkit-text-fill-color: #fff;
 }
 
 //Aquellos códigos que no son degradados para ambos
 //Display mathjax
 .grid {
-  display: grid ;
+  display: grid;
 }
 
 //Geogebra
@@ -92,10 +92,10 @@ Para un deg-sitio, sólo es necesario especificar dos clases:
 .GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent,
 .GeoGebraFrame .NewRadioButtonTreeItemParent,
 .GeoGebraFrame .gwt-Button.selected {
-  color: map-get($colores-deg-sitio, alter-sitio) ;
+  color: map-get($colores-deg-sitio, alter-sitio);
 }
 .GeoGebraFrame .KeyboardSwitcher *:hover {
-  color: mix(map-get($colores-deg-sitio, alter-sitio), #000, 90%) ;
+  color: mix(map-get($colores-deg-sitio, alter-sitio), #000, 90%);
 }
 //Borde escritura álgebra
 .GeoGebraFrame .matAvDesign .NewRadioButtonTreeItemParent {

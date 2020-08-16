@@ -62,8 +62,8 @@ Ajuste para deg-sitios según tema
   //En search result es importante que no se apliquen deg-sitios y que al colocar el mouse no cambie display a inline flex
   a.search-result {
     color: bg-grey-dk-000;
-    -webkit-text-fill-color: unset ;
-    background-image: none ;
+    -webkit-text-fill-color: unset;
+    background-image: none;
     &:hover {
       display: block;
     }
@@ -71,7 +71,7 @@ Ajuste para deg-sitios según tema
 
   //Inline bock mantiene en su lugar el ícono
   a.nav-list-expander svg {
-    display: inline-block ;
+    display: inline-block;
   }
 
   a:not(.btn) {
@@ -128,8 +128,8 @@ Ajuste para deg-sitios según tema
   //Esto es sólo si la  del
 
   a.nav-list-link mjx-container {
-    position: static ;
-    display: inline-flex ;
+    position: static;
+    display: inline-flex;
   }
   .deg-sitio.deg-sitio-texto > mjx-container {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
@@ -160,6 +160,6 @@ Ajuste para deg-sitios según tema
   .header-open-landscape {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio));
-    background-color: #fff ;
+    background-color: #fff;
   }
 }

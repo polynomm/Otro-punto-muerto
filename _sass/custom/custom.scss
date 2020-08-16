@@ -2,3 +2,7 @@
 @import "./fuentes";
 @import "./imprimir.scss";
 @import "./geogebra.scss";
+
+.tabla td {
+  min-width: 120px !important;
+}

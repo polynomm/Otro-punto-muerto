@@ -12,9 +12,9 @@
   }
 }
 
-.GeogebraFrame th,
-.GeogrbraFrame td {
-  min-width: inherit !important;
+th,
+td {
+  min-width: unset !important;
 }
 
 .gwt-MenuItem {

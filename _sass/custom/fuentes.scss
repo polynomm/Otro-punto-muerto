@@ -9,10 +9,9 @@
 .um {
   font-family: "Ubuntu Mono", monospace;
 }
-.breadcrumb {
-  display: none;
-}
+
 .main-content h1:first-of-type {
+  margin-top: 0;
   margin-bottom: 0.5cm;
   font-weight: 300;
   text-align: left;

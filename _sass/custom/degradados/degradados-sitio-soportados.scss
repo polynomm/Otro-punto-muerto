@@ -61,11 +61,11 @@ Ajuste para deg-sitios según tema
 
   //En search result es importante que no se apliquen deg-sitios y que al colocar el mouse no cambie display a inline flex
   a.search-result {
-    color: bg-grey-dk-000;
-    -webkit-text-fill-color: unset;
-    background-image: none;
+    color: #000;
+    -webkit-text-fill-color: unset !important;
+    background-image: none !important;
     &:hover {
-      display: block;
+      display: block !important;
     }
   }
 
@@ -97,8 +97,8 @@ Ajuste para deg-sitios según tema
   }
   .nav-list-link:hover,
   .nav-list-link.active {
-    &span.deg-sitio-texto {
-      -webkit-text-fill-color: #fff;
+    * {
+      -webkit-text-fill-color: #fff !important;
     }
   }
 
@@ -138,21 +138,20 @@ Ajuste para deg-sitios según tema
 
   /* Let's get this party started */
   ::-webkit-scrollbar {
-    position: static;
+    position: static !important;
     width: 8px;
   }
 
-  /* Track
   ::-webkit-scrollbar-track {
-  } */
+  }
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    position: fixed;
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    position: fixed !important;
     background-color: $grey-dk-000;
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    @include deg(map-get($colores-deg-sitio, deg-sitio));
   }
 
   //Geogebra

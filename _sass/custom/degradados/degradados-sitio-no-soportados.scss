@@ -64,10 +64,14 @@
   }
 
   .nav-list-link:hover,
-  .nav-list-link.active {
-    &span.deg-sitio-texto {
-      -webkit-text-fill-color: map-get($colores-deg-sitio, alter-sitio);
-    }
+  .nav-list-link.active,
+  .nav-list-link:hover *,
+  .nav-list-link.active * {
+    -webkit-text-fill-color: map-get(
+      $colores-deg-sitio,
+      alter-sitio-texto-color
+    ) !important;
+    color: map-get($colores-deg-sitio, alter-sitio-texto-color) !important;
   }
 
   .site-button:hover {

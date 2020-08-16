@@ -2,7 +2,7 @@
 
 .main.tools,
 .main.algebra {
-  margin-left: none !important;
+  margin-left: inherit !important;
   background-color: #fff !important;
 }
 .GeoGebraFrame {
@@ -12,9 +12,9 @@
   }
 }
 
-th,
-td {
-  min-width: unset !important;
+.GeogebraFrame th,
+.GeogrbraFrame td {
+  min-width: inherit !important;
 }
 
 .gwt-MenuItem {

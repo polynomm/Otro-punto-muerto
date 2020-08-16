@@ -16,19 +16,20 @@
   margin-bottom: 0.5cm;
   font-weight: 300;
   text-align: left;
-  span {
+  &span {
     font-weight: inherit;
   }
 }
 h1 {
   margin-bottom: 0.5cm;
-  font-weight: 300;
   font-family: Quicksand, sans-serif;
+  font-weight: 300;
   text-align: left;
   span {
     font-weight: inherit;
   }
 }
+
 h2,
 h3,
 h4,

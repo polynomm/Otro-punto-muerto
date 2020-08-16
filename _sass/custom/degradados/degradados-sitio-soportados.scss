@@ -11,6 +11,10 @@ $colores-deg-sitio: (
 
   .deg-sitio-texto {
     @include deg-texto();
+    display: inline-flex;
+    &::selection {
+      -webkit-text-fill-color: #fff;
+    }
   }
 
   .deg-sitio-fondo {
@@ -74,7 +78,7 @@ Ajuste para deg-sitios según tema
     //Se hacer que el texto tenga la $background-image de fondo.
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-texto;
-    $link-color: black;
+    $link-color: #000;
     //cuando el mouse se posiciona.
   }
 
@@ -122,32 +126,19 @@ Ajuste para deg-sitios según tema
   }
 
   //Esto es sólo si la sección del sitio contie
-  a.nav-list-link {
-    mjx-container {
-      position: static !important;
-    }
-    span {
-      mjx-container {
-        position: static !important;
-        display: inline-flex !important;
-      }
-    }
+  a.nav-list-link  mjx-container {
+    position: static !important;
+    display: inline-flex !important;
   }
-
   .deg-sitio.deg-sitio-texto > mjx-container {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-texto;
   }
-  .deg-sitio-texto {
-    display: inline-flex;
-    &::selection {
-      -webkit-text-fill-color: #fff;
-    }
-  }
+
   /* Let's get this party started */
   ::-webkit-scrollbar {
-    width: 8px;
     position: static;
+    width: 8px;
   }
 
   /* Track */
@@ -156,11 +147,11 @@ Ajuste para deg-sitios según tema
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
+    position: fixed;
+    background-color: $grey-dk-000;
     -webkit-border-radius: 10px;
     border-radius: 10px;
     @include deg(map-get($colores-deg-sitio, deg-sitio));
-    position: fixed;
-    background-color: $grey-dk-000;
   }
 
   //Geogebra

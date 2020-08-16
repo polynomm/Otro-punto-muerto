@@ -6,6 +6,7 @@
   a {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
   }
+
   h1:hover,
   h2:hover,
   h3:hover,
@@ -69,8 +70,8 @@
     }
   }
 
-  .site-button:hover{
-    &svg{
+  .site-button:hover {
+    &svg {
       color: #fff;
     }
   }
@@ -85,7 +86,7 @@
     visibility: hidden;
   }
 
-  .nav-list .nav-list-item > .nav-list .nav-list-link {
+  .nav-list-item > .nav-list .nav-list-link {
     @include alter-texto(map-get($colores-deg-sitio, alter-sitio));
   }
 

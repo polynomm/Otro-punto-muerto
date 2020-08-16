@@ -21,16 +21,16 @@
     height: 40px;
     min-height: unset;
     pointer-events: none;
-    border-bottom: 0px;
     background-color: #fff;
+    border-bottom: 0;
   }
   .site-title.lh-tight:hover::before,
   .site-title.lh-tight:active::before {
-    content: unset;
     padding-top: unset;
-    color: unset;
-    background-color: #fff;
     padding-bottom: unset;
+    color: unset;
+    content: unset;
+    background-color: #fff;
   }
   .main-content h1:first-of-type {
     margin-bottom: 0.5cm;
@@ -57,8 +57,8 @@
     color: #000 !important;
   }
   body {
-    color: $grey-dk-250 !important;
     font-weight: 400 !important;
+    color: $grey-dk-250 !important;
     color-adjust: exact !important;
   }
 

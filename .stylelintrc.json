@@ -8,6 +8,9 @@
   "extends": ["stylelint-config-primer", "stylelint-config-prettier"],
   "plugins": ["stylelint-prettier"],
   "rules": {
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "property-no-vendor-prefix": null,
+    "selector-max-type": 3,
+    "selector-no-qualifying-type":null
   }
 }

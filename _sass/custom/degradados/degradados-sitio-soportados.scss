@@ -125,7 +125,7 @@ Ajuste para deg-sitios según tema
     color: map-get($colores-deg-sitio, deg-sitio-texto-color);
   }
 
-  //Esto es sólo si la sección del sitio contie
+  /* Esto es sólo si la sección del */
   a.nav-list-link  mjx-container {
     position: static !important;
     display: inline-flex !important;
@@ -141,9 +141,9 @@ Ajuste para deg-sitios según tema
     width: 8px;
   }
 
-  /* Track */
+  /* Track
   ::-webkit-scrollbar-track {
-  }
+  } */
 
   /* Handle */
   ::-webkit-scrollbar-thumb {

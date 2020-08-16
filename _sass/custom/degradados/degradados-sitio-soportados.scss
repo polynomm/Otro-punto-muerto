@@ -125,7 +125,9 @@ Ajuste para deg-sitios según tema
     color: map-get($colores-deg-sitio, deg-sitio-texto-color);
   }
 
-  /* Esto es sólo si la sección del */
+  /* 
+  Esto es sólo si la sección del
+  */
   a.nav-list-link  mjx-container {
     position: static !important;
     display: inline-flex !important;

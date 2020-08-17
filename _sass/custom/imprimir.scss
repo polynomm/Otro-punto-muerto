@@ -1,5 +1,8 @@
 @media screen {
-  .mo-mostrar {
+  .no-mostrar {
+    display: none;
+  }
+  .salto {
     display: none;
   }
 }
@@ -40,6 +43,7 @@
     }
   }
   hr:first-of-type {
+    margin-bottom: 0;
     visibility: hidden;
   }
   h1 {
@@ -68,5 +72,8 @@
 
   [class*="deg-"] {
     font-weight: 600;
+  }
+  .salto {
+    page-break-after: always;
   }
 }

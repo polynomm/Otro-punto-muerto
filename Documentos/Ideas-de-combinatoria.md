@@ -10,15 +10,19 @@ parent: Documentos
 # Ideas de&nbsp;<span class="deg-sitio deg-sitio-texto">Combinatoria</span>&nbsp;N+<i class="jpa-all-default-rel-face_with_magnifying_glass jpa-2em"></i>
 {:.fs-9}
 
-<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degVerde.css' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degEspecial.css' | absolute_url }}">
 <script>
-    jtd.setTheme('degVerde');
+    jtd.setTheme('degEspecial');
 </script>
 
-Este es un bosquejo preliminar. A continuación, una lista de problemas variados de combinatoria.
-
-<span class="label deg-combinatoria deg-combinatoria-fondo">Combinatoria</span><span class="label deg-numeros deg-numeros-fondo">Teoría de números</span>
+Este es un bosquejo preliminar de las funciones del sitio. Las publicaciones pueden variar de apariencia, según más convenga. A continuación, una lista de problemas variados de combinatoria.
 {:.fs-6 .fw-300}
+
+Combinatoria
+{:.label .deg-combinatoria .deg-combinatoria-fondo}
+
+Teoría de números
+{:.label .deg-numeros .deg-numeros-fondo}
 
 ---
 1. TOC
@@ -118,6 +122,44 @@ Demuestra que \$\$ \binom{n}{0}^2+\binom{n}{1}^2+\cdots+\binom{n}{n}^2=\binom{2n
 ### Problema &nbsp;<span class="deg-sitio deg-sitio-texto">19</span>
 Demuestra que \$\$ 0\binom{n}{0}+1\binom{n}{1}+\cdots+n\binom{n}{n}=2^{n-1}\cdot n \$\$
 
+  <!--Encerrar dentro de un div el applet soluciona el problema de impresión en escritorio (el applet se mueve de su posición) En teléfonos cambia sigue el problem.-->
+## Applet de Geogebra
+<div class="geo-75"><div id="applet_container"></div></div>
+
+<script type="text/javascript">
+				function perspective(p){
+					updateHelp(p);
+					ggbApplet.setPerspective(p);
+				}
+                var parameters = {
+                        "id":"ggbApplet",
+                        "material_id":"17499",
+                        "appName":"geometry",
+                        "width":800,
+                        "height":450,
+                        "showToolBar":true,
+                        "borderColor":null,
+                        "showMenuBar":true,
+                        "allowStyleBar":true,
+                        "showAlgebraInput":false,
+                        "enableLabelDrags":false,
+                        "enableShiftDragZoom":true,
+                        "capturingThreshold":null,
+                        "showToolBarHelp":false,
+                        "errorDialogsActive":true,
+                        "showTutorialLink":true,
+                        "showLogging":true,
+                        "useBrowserForJS":false,
+                        "autoHeight":true,
+                        "scaleContainerClass":"geo-75",
+                        "allowUpscale":true
+                        };
+                var applet = new GGBApplet(parameters, '5.0', 'applet_container');
+               /*  when used with Math Apps Bundle, uncomment this:*/
+                /*applet.setHTML5Codebase('GeoGebra/HTML5/5.0/web3d/');*/
+
+                window.onload = function() { applet.inject('applet_container');}
+  </script>
 	
 	
 	 

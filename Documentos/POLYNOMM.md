@@ -8,7 +8,7 @@ parent: Documentos
 nav_order: 1
 ---
 
-# ¡Esto es POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.github.io! <i class="jpa-anim-rel-partying_face jpa-2em"></i>
+# ¡Esto es POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>! <i class="jpa-anim-rel-partying_face jpa-2em"></i>
 {:.fs-9}
 
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRosa.css' | absolute_url }}">
@@ -68,44 +68,6 @@ Sin embargo, esto no afecta tu experiencia en el sitio.
 ## Disclaimer
 
 Este sitio, su desarrollador y sus colaboradores se deslindan de cualquier incidente relacionado con el sitio.
-
-<script type="text/javascript">
-				function perspective(p){
-					updateHelp(p);
-					ggbApplet.setPerspective(p);
-				}
-                var parameters = {
-                        "id":"ggbApplet",
-                        "material_id":"17499",
-                        "appName":"geometry",
-                        "width":800,
-                        "height":450,
-                        "showToolBar":true,
-                        "borderColor":null,
-                        "showMenuBar":true,
-                        "allowStyleBar":true,
-                        "showAlgebraInput":false,
-                        "enableLabelDrags":false,
-                        "enableShiftDragZoom":true,
-                        "capturingThreshold":null,
-                        "showToolBarHelp":false,
-                        "errorDialogsActive":true,
-                        "showTutorialLink":true,
-                        "showLogging":true,
-                        "useBrowserForJS":false,
-                        "autoHeight":true,
-                        "scaleContainerClass":"geo-75",
-                        "allowUpscale":true
-                        };
-                var applet = new GGBApplet(parameters, '5.0', 'applet_container');
-               /*  when used with Math Apps Bundle, uncomment this:*/
-                /*applet.setHTML5Codebase('GeoGebra/HTML5/5.0/web3d/');*/
-
-                window.onload = function() { applet.inject('applet_container');}
-  </script>
-
-  <!--Encerrar dentro de un div el applet soluciona el problema de impresión en escritorio (el applet se mueve de su posición) En teléfonos cambia sigue el problem.-->
-<div class="geo-75"><div id="applet_container"></div></div>
 
 
 

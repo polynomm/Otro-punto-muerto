@@ -95,6 +95,10 @@ Ajuste para deg-sitios según tema
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-fondo(map-get($colores-deg-sitio, deg-sitio-texto-color));
   }
+  .nav-list .nav-list-link * {
+    @include deg(map-get($colores-deg-sitio, deg-sitio));
+    @include deg-texto();
+  }
   .nav-list-link:hover,
   .nav-list-link.active {
     * {

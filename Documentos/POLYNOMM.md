@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <span class="deg-sitio deg-sitio-texto">\( P(x) \)</span>
+title: <span>\( P(x) \)</span>
 description: "Declaración de todas las intenciones del sitio."
 permalink: /Documentos/POLYNOMM
 last_modified_date: 2020-08-17T09:00:00+0000
@@ -8,13 +8,13 @@ parent: Documentos
 nav_order: 1
 ---
 
-# ¡Esto es POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>! <i class="jpa-anim-rel-partying_face jpa-2em"></i>
-{:.fs-9}
-
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degRosa.css' | absolute_url }}">
 <script>
     jtd.setTheme('degRosa');
 </script>
+
+# ¡Esto es POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.github.io! <i class="jpa-anim-rel-partying_face jpa-2em"></i>
+{:.fs-9}
 
 Este sitio está dedicado a toda la comunidad <span> olímpica </span>{:.deg-desigualdades .deg-desigualdades-texto} del estado de Tlaxcala <i class="jpa-anim-rel-smiling_face_with_heart_eyes jpa-2em"></i>
 {:.fs-6 .fw-300}

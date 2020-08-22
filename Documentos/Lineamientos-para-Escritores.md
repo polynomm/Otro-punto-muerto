@@ -8,13 +8,13 @@ parent: Documentos
 nav_order: 3
 ---
 
-# ¿Cómo se edita el contenido en POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>?<i class="jpa-anim-rel-nerd_face jpa-2em"></i>
-{:.fs-9}
-
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degNaranja.css' | absolute_url }}">
 <script>
     jtd.setTheme('degNaranja');
 </script>
+
+# ¿Cómo se edita el contenido en POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>?<i class="jpa-anim-rel-nerd_face jpa-2em"></i>
+{:.fs-9}
 
 Aquí se explica cómo es el proceso para enviar, seleccionar y publicar el contenido del sitio.
 {:.fs-6 .fw-300}
@@ -160,7 +160,7 @@ Los errores menores sólo necesitan ser indicados.
 
 Puedes añadir cambios significativos, repitiendo el proceso e indicando que harás una actualización de tu contenido. Sólo puedes añadir a colaboradores que hayan sido invitados.
 
-El contenido puede denunciarse y eliminarse si incumplen los principios y lineamientos de POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.
+El contenido puede denunciarse y eliminarse si incumple los principios y lineamientos de POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.
 
 
 

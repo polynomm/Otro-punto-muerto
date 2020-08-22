@@ -1,19 +1,19 @@
 ---
 layout: default
-title: Ideas de &nbsp;<span class="deg-sitio deg-sitio-texto">Combinatoria</span>
+title: Ideas de Combinatoria
 description: "Entrenamiento del 14 de marzo de 2020"
 permalink: /2020/Marzo/Ideas-de-combinatoria
 last_modified_date: 2020-03-14T9:00:00+0000
 parent: Documentos
 ---
 
-# Ideas de&nbsp;<span class="deg-sitio deg-sitio-texto">Combinatoria</span>&nbsp;N+<i class="jpa-all-default-rel-face_with_magnifying_glass jpa-2em"></i>
-{:.fs-9}
-
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degEspecial.css' | absolute_url }}">
 <script>
     jtd.setTheme('degEspecial');
 </script>
+
+# Ideas de&nbsp;<span class="deg-sitio deg-sitio-texto">Combinatoria</span>&nbsp;N+<i class="jpa-all-default-rel-face_with_magnifying_glass jpa-2em"></i>
+{:.fs-9}
 
 Este es un bosquejo preliminar de las funciones del sitio. Las publicaciones pueden variar de apariencia, según más convenga. A continuación, una lista de problemas variados de combinatoria.
 {:.fs-6 .fw-300}

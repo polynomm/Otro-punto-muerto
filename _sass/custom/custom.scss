@@ -10,3 +10,13 @@
 p > mjx-container {
   overflow-x: scroll;
 }
+
+//Aquellos códigos que no son degradados para ambos
+//Display mathjax
+.grid {
+  display: grid;
+}
+
+.inline-flex {
+  display: inline-flex;
+}

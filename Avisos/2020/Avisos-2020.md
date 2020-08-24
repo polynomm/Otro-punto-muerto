@@ -16,6 +16,7 @@ has_children: true
 # Avisos <span class="deg-sitio deg-sitio-texto">2020</span><i class="jpa-anim-rel-nerd_face jpa-2em"></i>
 {:.fs-9}
 
-Directorio ordenadado de cada aviso publicado este año.
+Directorio ordenadado de cada aviso publicado en 2020.
+{:.fs-6 .fw-300}
 
 ---

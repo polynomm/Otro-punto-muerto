@@ -22,7 +22,7 @@ parent: Avisos 2020
 ---
 
 1. TOC
-{:toc .no-imprimir}
+{:toc .markdown-toc .no-imprimir}
 
 ## A toda la c<span class="deg-sitio deg-sitio-texto">omm</span>unidad
 

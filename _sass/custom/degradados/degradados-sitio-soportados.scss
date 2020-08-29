@@ -135,9 +135,20 @@ Ajuste para deg-sitios según tema
     position: static;
     display: inline-flex;
   }
+
   .deg-sitio.deg-sitio-texto > mjx-container {
     @include deg(map-get($colores-deg-sitio, deg-sitio));
     @include deg-texto;
+  }
+
+  .math.grid.deg-sitio.deg-sitio-fondo {
+    -webkit-background-clip: content-box;
+    mjx-container {
+      margin: 0;
+      -webkit-text-fill-color: #000;
+      background: #fff;
+      mix-blend-mode: screen;
+    }
   }
 
   /* Let's get this party started */

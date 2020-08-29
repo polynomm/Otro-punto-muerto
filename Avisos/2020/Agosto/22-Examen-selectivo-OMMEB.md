@@ -38,11 +38,11 @@ A la misma hora, se compartirá de forma adicional un enlace en la página y en 
 
 ## El examen es por niveles... ¿qué nivel me corresponde?
 
-<span class="deg-sitio deg-sitio-texto">Nivel 1:</span> Estudiantes de cuarto y quinto año de primaria o una institución equivalente. Los estudiantes no deben haber cumplido 13 años al 1 de julio de 2020.
+<span class="deg-sitio deg-sitio-texto">Nivel 1:</span> Estudiantes de cuarto y quinto año de primaria o una institución equivalente. Los estudiantes no deben haber cumplido 13 años al 1 de agosto 2020.
 
-<span class="deg-sitio deg-sitio-texto">Nivel 2:</span> Estudiantes de sexto año de primaria y primer año de secundaria o una institución equivalente. Los estudiantes no deben haber cumplido 16 años al 1 de julio de 2020.
+<span class="deg-sitio deg-sitio-texto">Nivel 2:</span> Estudiantes de sexto año de primaria y primer año de secundaria o una institución equivalente. Los estudiantes no deben haber cumplido 16 años al 1 de agosto de 2020.
 
-<span class="deg-sitio deg-sitio-texto">Nivel 3:</span> Estudiantes de segundo año de secundaria o una institución equivalente. Los estudiantes no deben haber cumplido 16 años al 1 de julio de 2020.
+<span class="deg-sitio deg-sitio-texto">Nivel 3:</span> Estudiantes de segundo año de secundaria o una institución equivalente. Los estudiantes no deben haber cumplido 16 años al 1 de agosto de 2020.
 
 
 ## ¿Qué tipo de examen se aplicará?<i class="jpa-anim-rel-flushed_face jpa-2em"></i>
@@ -71,7 +71,7 @@ Envía **solamente tus respuestas**, ordenadas en una lista, a **liliacarvajal.0
 
 ### Problemas demostrativos (o parte&nbsp;**B**)
 
-Utiliza hojas diferentes para problemas diferentes, y ordena las hojas. Añade un encabezado en las hojas que indique: Problema _ , **Hoja _ de _.**
+Utiliza hojas diferentes para problemas diferentes, y ordena las hojas. Añade un encabezado en las hojas que indique: **Problema _ , Hoja _ de _.**
 
 Para los <span class="deg-sitio deg-sitio-texto">Niveles 2 y 3</span>, los problemas de la parte <span class="deg-sitio deg-sitio-texto">**B**</span> serán enviados en **PDF** a los siguientes correos:
 

@@ -701,7 +701,7 @@ $$
 \begin{array}{c}
 \phantom{+}\frac{1}{\sqrt[3]{1}+\sqrt[3]{2}+\sqrt[3]{4}}\\
 +\;\;\frac{1}{\sqrt[3]{4}+\sqrt[3]{6}+\sqrt[3]{9}}\\
-+\frac{1}{\sqrt[3]{9}+\sqrt[3]{6}+\sqrt[3]{16}}\\
++\frac{1}{\sqrt[3]{9}+\sqrt[3]{12}+\sqrt[3]{16}}\\
 \phantom{+}\vdots\\
 +\frac{1}{\sqrt[3]{2019^2}+\sqrt[3]{2019(2020)}+\sqrt[3]{2020^2}}
 \end{array}
@@ -756,7 +756,7 @@ $$
 4x^2+8y^2+(2x-3y)p-12xy=0
 $$
 
-Demuestra que \\( 4y+1 \\) es un cuadrado perfecto para cada terna \\( (x,y,p) \\)
+Demuestra que \\( 4y+1 \\) es un cuadrado perfecto para cada terna \\( (x,y,p) \\).
 
 <script type="text/javascript">
 				function perspective(p){

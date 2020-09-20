@@ -26,7 +26,7 @@ parent: Avisos 2020
 
 ## A toda la c<span class="deg-sitio deg-sitio-texto">omm</span>unidad
 
-Se hace oficial la página de facebook de [POLYNOMM](https://www.facebook.com/Polynomm-100666925132315), su grupo (<span class="deg-sitio deg-sitio-texto">PolynOMMials</span>), y el correo electrónico <span class="deg-sitio deg-sitio-texto">PolynOMM@outlook.com</span>, que atenderá asuntos relacionados con la las Olimpiadas de matemáticas.
+Se hace oficial la página de facebook de [POLYNOMM](https://www.facebook.com/Polynomm-100666925132315), su grupo (<span class="deg-sitio deg-sitio-texto">PolynOMMials</span>), y el correo electrónico <span class="deg-sitio deg-sitio-texto">PolynOMM@outlook.com</span>, que atenderá asuntos relacionados con las Olimpiadas de matemáticas.
 
 ## Cambios próximos
 

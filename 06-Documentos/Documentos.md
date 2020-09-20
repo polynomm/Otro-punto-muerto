@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Documentos
-nav_order: 4
+nav_order: 7
 description: "Contenido importante para el sitio."
-permalink: /Documentos/Documentos
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true
 ---
@@ -18,5 +17,3 @@ has_children: true
 
 En esta sección se incluyen los principios y lineamientos de POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>. Lee cuidadosamente cada apartado, sobre todo si eres invitado a colaborar.
 {:.fs-6 .fw-300}
-
----

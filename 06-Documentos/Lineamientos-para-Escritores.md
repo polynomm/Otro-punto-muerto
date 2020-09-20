@@ -2,8 +2,7 @@
 layout: default
 title: Lineamientos para Escritores
 description: "Se describen los lineamientos para colaborar con el contenido del sitio."
-permalink: /Documentos/Lineamientos-para-Escritores
-last_modified_date: 2020-08-17T09:00:00+0000
+last_modified_date: 2020-09-20T18:00:00+0000
 parent: Documentos
 nav_order: 3
 ---
@@ -40,13 +39,13 @@ Sólo con invitación. Esperamos poder realizar dinámicas para que todos tengan
 ¡Bienvenido! Podrás publicar contenido en POLYN<span class="deg-sitio deg-sitio-texto">OMM</span> bajo los siguientes lineamientos.
 {:.fs-6 .fw-300}
 
-## Anonimato<i class="jpa-anim-rel-shushing_face jpa-2em"></i>
+## Discreción y nonimato<i class="jpa-anim-rel-shushing_face jpa-2em"></i>
 
 Dado que lo importante es que el contenido sea para todos, no daremos reconocimiento explícito a a ningún escritor.
 
-En su lugar, los Escritores serán reconocidos a partir de una secuencia de emojis personalizada, la cual no deben compartir. Además, los Escritores tienen prohibido promocionarse a sí mísmos en cualquier medio (esto incluye prácticas como compartir mayoritariamente los enlaces de los artículos que redactaron).
+En su lugar, los Escritores podrán ser reconocidos a partir de una secuencia de emojis personalizada (si su colaboración con POLYN<span class="deg-sitio deg-sitio-texto">OMM</span> es significativa), la cual no deben compartir. Además, los Escritores así reconocidos tienen prohibido promocionarse a sí mísmos en cualquier medio (esto incluye prácticas como compartir mayoritariamente los enlaces de los artículos que redactaron).
 
-En caso de no cumplir con el anonimato (lo cual puede ser notificado por cualquier usuario del sitio), se advertirá a los Escritores involucrados, antes de sustituir la secuencia de emojis personalizada por un texto genérico.
+En caso de no cumplir la discreción y el anonimato (lo cual puede ser notificado por cualquier usuario del sitio), se advertirá a los Escritores involucrados, antes de sustituir la secuencia de emojis personalizada por un texto genérico.
 
 Por tanto, recomendamos evitar compartir un link que sea diferente a POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.github.io
 

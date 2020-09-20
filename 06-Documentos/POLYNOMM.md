@@ -1,8 +1,7 @@
 ---
 layout: default
-title: <span>\( P(x) \)</span>
+title: <span class="deg-sitio deg-sitio-texto">\( P(x) \)</span>
 description: "Declaración de todas las intenciones del sitio."
-permalink: /Documentos/POLYNOMM
 last_modified_date: 2020-08-17T09:00:00+0000
 parent: Documentos
 nav_order: 1
@@ -16,7 +15,7 @@ nav_order: 1
 # ¡Esto es POLYN<span class="deg-sitio deg-sitio-texto">OMM</span>.github.io! <i class="jpa-anim-rel-partying_face jpa-2em"></i>
 {:.fs-9}
 
-Este sitio está dedicado a toda la comunidad <span> olímpica </span>{:.deg-desigualdades .deg-desigualdades-texto} del estado de Tlaxcala <i class="jpa-anim-rel-smiling_face_with_heart_eyes jpa-2em"></i>
+Este sitio está dedicado a toda la comunidad <span> olímpica </span>{:.deg-sitio .deg-sitio-texto} del estado de Tlaxcala <i class="jpa-anim-rel-smiling_face_with_heart_eyes jpa-2em"></i>
 {:.fs-6 .fw-300}
 
 ---
@@ -43,7 +42,7 @@ Por ahora, el sitio está en una fase inicial de desarrollo, por lo que sólo ha
 
 ### Aprendizaje gratuito
 
-Se promoverán sólamente dinámicas y contenidos que sean gratuitos y accesibles para toda la comunidad. Este sitio y su desarrollador no tienen ánimo de lucro. A excepción de una necesidad que ponga en peligro el acceso al sitio, no se pueden solicitar explícitamente donaciones de ningún tipo.
+Se promoverán sólamente dinámicas y contenidos que sean gratuitos y accesibles para toda la comunidad. Este sitio y su desarrollador no tienen ánimo de lucro. A excepción de una necesidad que ponga en peligro el acceso al sitio o su desarrollo, no se pueden solicitar explícitamente donaciones de ningún tipo. Toda donación, en aquella situación crítica, sería voluntaria, al estilo Wikipedia.
 
 En cualquier caso, ¡todas las dinámicas y el contenido publicado en este sitio es y seguirá siendo gratuito!
 
@@ -61,7 +60,7 @@ Este sitio tiene dos principios de desarrollo: simplicidad y estética, porque..
 
 ## Desarrollo y propiedad.
 
-Este sitio es personal. El desarrollador utilizó diversos componentes, cuyas licencias exigen que este sitio no pertenezca a una organización, dependencia, ONG, y un largo etcéeeetera que, además, incluye muchas condiciones (las cuales no deben infringirse).
+Este sitio es personal, propiedad de Alexis Jonathan Dorantes Vázquez, cuyo contenido tiene libre acceso para todos. El desarrollador utilizó diversos componentes, cuyas licencias exigen que este sitio no pertenezca a una organización, dependencia, ONG, y un largo etcéeeetera que, además, incluye muchas condiciones (las cuales no deben infringirse).
 
 Sin embargo, esto no afecta tu experiencia en el sitio.
 

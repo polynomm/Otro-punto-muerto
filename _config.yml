@@ -56,8 +56,8 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
- "Soy un link":
-  - "https://facebook.com"
+ "Facebook":
+  - "https://www.facebook.com/Polynomm-100666925132315"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true

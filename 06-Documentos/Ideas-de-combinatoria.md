@@ -2,7 +2,6 @@
 layout: default
 title: Ideas de Combinatoria
 description: "Entrenamiento del 14 de marzo de 2020"
-permalink: /2020/Marzo/Ideas-de-combinatoria
 last_modified_date: 2020-03-14T9:00:00+0000
 parent: Documentos
 ---

@@ -4,8 +4,8 @@ title: Examen selectivo OMMEB 2020
 nav_order: 1
 description: "Versión final"
 last_modified_date: 2020-08-29T10:00:00+0000
-grand_parent: Entrenamientos Olímpicos
-parent: Entrenamientos 2020
+grand_parent: Tlaxcala
+parent: Tlaxcala 2020
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/just-the-docs-degArcoiris.css' | absolute_url }}">

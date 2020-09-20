@@ -8,7 +8,7 @@ last_modified_date: 2020-08-17T09:00:00+0000
 ---
 
 
-# Tsunami <i class="jpa-">
+# Tsunami
 {:.fs-9}
 
 Consulta el Aviso del <span class="deg-sitio deg-sitio-texto">20 de septiembre de 2020</span> para más información

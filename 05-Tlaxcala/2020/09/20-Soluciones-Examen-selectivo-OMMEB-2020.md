@@ -525,7 +525,7 @@ d(n)=(\alpha_1+1)\cdots(\alpha_k+1)=75
 $$
 {:.math .grid}
   
-Como 75 es impar, \\( \alpha_i \\) debe ser un número par para todo \\( i< k \\), es decir, \\( a_i\ge 2\\). 
+Como 75 es impar, \\( \alpha_i \\) debe ser un número par para todo \\( i< k \\), es decir, \\( \alpha_i\ge 2\\). 
 
 Podemos realizar los siguientes casos
 

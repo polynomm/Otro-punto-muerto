@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Avisos
-nav_order: 7
+nav_order: 8
 description: "Avisos del sitio."
 last_modified_date: 2020-08-17T09:00:00+0000
 has_children: true
